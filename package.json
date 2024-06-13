@@ -1,0 +1,18 @@
+{
+	"name": "03-schemas",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"type": "module",
+	"scripts": {
+	  "dev": "node --env-file=.env --watch server.js",
+	  "seed": "node --env-file=.env seed.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+	  "express": "^4.19.2",
+	  "mongoose": "^8.4.1"
+	}
+  }
